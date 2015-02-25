@@ -1,0 +1,2 @@
+# copy 99-libusb.rules into /lib/udev/rules.d/ and do a reboot!!
+SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTRS{idVendor}=="21e2", ATTRS{idProduct}=="1008", MODE="0666"
